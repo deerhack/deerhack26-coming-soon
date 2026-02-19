@@ -1,8 +1,8 @@
 import styles from "./styles.module.css";
 import { cabinetExtraBold } from "@/app/utils/fonts";
-import DeerHackLogo from "@/app/assets/icons/Deerhack26Logo.tsx";
+import DeerHackLogo from "@/app/assets/icons/Deerhack26Logo";
 import { ReactElement } from "react";
-import Counter_wrapper from "../components/counter/Counter.tsx"
+import Counter_wrapper from "../components/counter/Counter"
 
 export default function ComingSoonCard(): ReactElement {
   return (
