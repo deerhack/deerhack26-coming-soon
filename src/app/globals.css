@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .from-1\% {
+    --tw-gradient-from-position: 1%;
+  }
+
+  .primary-gradient-background {
+    background: linear-gradient(140.3deg, #6633cc -15.9%, #f5c144 72.56%);
+  }
+
+  .text-primary-gradient-color {
+    @apply bg-gradient-to-r from-primary from-1% to-secondary bg-clip-text text-transparent;
+  }
+
+  .text-primary-gradient-color-reverse {
+    @apply bg-gradient-to-tr to-primary from-30% from-secondary bg-clip-text text-transparent;
+  }
+}
