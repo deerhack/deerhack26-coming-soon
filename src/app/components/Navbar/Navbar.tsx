@@ -6,7 +6,7 @@ import Link from "next/link"
 import DeerhackLogo from "@/app/assets/icons/DeerhackLogo"
 import { cabinetBold, cabinetMedium, satoshiBlack } from "@/app/utils/fonts"
 import Image from "next/image"
-import menuSVG from "@/app/assets/icons/menu.svg"
+import menuSVG from "@/app/assets/icons/menu"
 import crossSVG from "@/app/assets/icons/cross.svg"
 import Counter_wrapper from "../counter/Counter"
 
@@ -244,7 +244,7 @@ const Navbar = () => {
                   Registration Closed
                 </button>
               </Link> */}
-               <Counter_wrapper/>
+               
             </div>
           </div>
         </nav>
