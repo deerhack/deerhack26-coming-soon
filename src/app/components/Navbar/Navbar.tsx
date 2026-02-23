@@ -76,7 +76,7 @@ const Navbar = () => {
             <a href="/" className="flex-shrink-0 flex items-center "> 
               <DeerhackLogo width="50" height="50" />
             </a>
-            <button onClick={toggleMenu} className="lg:hidden text-secondary flex items-center justify-center ">
+            {/* <button onClick={toggleMenu} className="lg:hidden text-secondary flex items-center justify-center ">
               {isMenuOpen ? (
                 <Image
                   src={crossSVG || "/placeholder.svg"}
@@ -88,7 +88,7 @@ const Navbar = () => {
               ) : (
                 <Image src={menuSVG || "/placeholder.svg"} alt="Open Menu" width={40} height={40} className="my-auto" />
               )}
-            </button>
+            </button> */}
 
             <div className="hidden lg:block ">
               {/* <Counter_wrapper /> */}
