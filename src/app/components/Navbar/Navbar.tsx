@@ -109,53 +109,12 @@ const Navbar = () => {
                   {/* Schedule */}
                 </Link>
 
-                <div className="relative text-left" ref={resourceRef}>
-                  <span className="hover:text-secondary cursor-pointer block text-2xl " onClick={handleResourceClick}>
-                    Resources
-                  </span>
+                {/* 
+                 */}
 
-                  {isResourceOpen && (
-                    <div className="mt-3 ml-4 ">
-                      <ul className={`${cabinetMedium.className} space-y-3 text-left `}>
-                        <li>
-                          <a
-                            href="/selection-criteria"
-                            className="hover:text-secondary text-xl"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            Selection Criteria
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/judging-criteria"
-                            className="hover:text-secondary text-xl"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            Judging Criteria
-                          </a>
-                        </li>
-                        {/* Hidden Judging Criteria */}
-                        <li>
-                          <a
-                            href="/code-of-conduct"
-                            className="hover:text-secondary text-xl"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            Code Of Conduct
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  )}
-                </div>
-
-                <Link href="/organizers" className="hover:text-secondary text-2xl">
+                {/* <Link href="/organizers" className="hover:text-secondary text-2xl">
                   Organizers
-                </Link>
+                </Link> */}
 
                 {/* <Link href="/legacy" className="hover:text-secondary text-2xl">
                   Legacy
@@ -187,15 +146,15 @@ const Navbar = () => {
                 {/* Schedule */}
               </Link>
 
-              <div className="relative" ref={resourceRef}>
+              {/* <div className="relative" ref={resourceRef}>
                 <span
                   className={`hover:text-secondary cursor-pointer  block text-base ${cabinetBold.className}`}
                   onClick={handleResourceClick}
                 >
                   Resources
-                </span>
+                </span> */}
 
-                {isResourceOpen && (
+                {/* {isResourceOpen && (
                   <div className="fixed bg-violet/50 backdrop-blur-md shadow-lg transition-all ease-in-out duration-500 z-20 text-white rounded-br-xl rounded-bl-xl border-sm top-20 mt-[1rem] ">
                     <ul className={`w-[18.6rem] mt-0.5 text-left list-none ${cabinetMedium.className}`}>
                       <li className="p-5 mb-2">
@@ -221,11 +180,11 @@ const Navbar = () => {
                     </ul>
                   </div>
                 )}
-              </div>
+              </div> */}
 
-              <Link href="/organizers" className={`hover:text-secondary text-base ${cabinetBold.className}`}>
+              {/* <Link href="/organizers" className={`hover:text-secondary text-base ${cabinetBold.className}`}>
                 Organizers
-              </Link>
+              </Link> */}
 
               {/* <Link href="/legacy" className={`hover:text-secondary text-base ${cabinetBold.className}`}>
                 Legacy

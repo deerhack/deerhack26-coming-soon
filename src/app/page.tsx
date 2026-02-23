@@ -6,7 +6,7 @@ import Navbar from "@/app/components/Navbar/Navbar";
 export default function ComingSoonPage(): ReactElement {
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/> */}
       <Hero />
     </>
   );
