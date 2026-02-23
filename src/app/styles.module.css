@@ -1,3 +1,49 @@
 .background_container_hero {
-    background-image: url("./assets/images/Hero.jpg");
+    background-image: url("./assets/images/HeroPage25.svg");
+}
+
+.background_container {
+  background-image: url("./assets/images/404_Desktop_Upscaled.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.muted_color {
+  background-color: rgba(17, 12, 36, 0.6);
+}
+
+@media (max-width: 3000px) {
+  .background_container {
+    background-image: url("./assets/images/404_Desktop_Upscaled.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .background_container {
+    background-image: url("./assets/images/404_phone.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+}
+
+/* @media screen and (min-width: 961) and (max-width: 1200px) {
+  .background_container {
+    background-image: url("./assets/images/404_phone.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+} */
+
+@media (min-width: 1201) and (max-width: 1920px) {
+  .background_container {
+    background-image: url("./assets/images/404_ipad.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
 }
