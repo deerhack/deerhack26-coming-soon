@@ -31,7 +31,7 @@ export default function ComingSoonCard(): ReactElement {
 
   return (
     <div
-      className={`${styles.muted_color} rounded-2xl w-[70vw] md:w-[60vw] lg:w-[35vw] deerhacklogo xl:w-[30vw] h-[32vh] md:[46vh] lg:h-[46vh] flex flex-col gap-7 justify-center items-center backdrop-blur-sm px-3 py-6`}
+      className={`${styles.muted_color} rounded-2xl w-[70vw] md:w-[50vw] lg:w-[35vw] deerhacklogo xl:w-[30vw] h-[32vh] md:h-[40vh] lg:h-[46vh] flex flex-col gap-7 justify-center items-center backdrop-blur-sm px-3 py-6`}
       style={{
         border: isGlowing ? "2px solid #FFB401" : "2px solid #B98402 ",
         transition: "border 0.1s ease, box-shadow 0.1s ease",
@@ -46,7 +46,7 @@ export default function ComingSoonCard(): ReactElement {
         <Flicker onGlowChange={handleGlowChange} />
       </div>
        <Link
-          href="https://discord.gg/D7MBwTXb"
+          href="https://discord.gg/zGNwwVAR"
           className="inline-block"
           target="_blank"
         >
