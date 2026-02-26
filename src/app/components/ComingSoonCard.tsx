@@ -46,7 +46,7 @@ export default function ComingSoonCard(): ReactElement {
         <Flicker onGlowChange={handleGlowChange} />
       </div>
        <Link
-          href="https://discord.gg/zGNwwVAR"
+          href="https://discord.gg/56PAU7sBgZ"
           className="inline-block"
           target="_blank"
         >
